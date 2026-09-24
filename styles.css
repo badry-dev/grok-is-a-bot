@@ -18,7 +18,8 @@ body {
     var(--bg);
   color: var(--fg);
   display: grid;
-  place-items: center;
+  justify-items: center;
+  align-items: safe center;
   padding: 2rem 1.25rem;
 }
 main {
